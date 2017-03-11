@@ -17,8 +17,8 @@ public class Palindrome {
 		int e;
 		int f;
 
-		// просим ввести координаты
-		System.out.println("Enter X");
+		// просим ввести число
+		System.out.println("Enter number");
 		number = sc.nextInt();
 
 		// раскладываем на цифры
