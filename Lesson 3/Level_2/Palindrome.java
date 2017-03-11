@@ -28,18 +28,16 @@ public class Palindrome {
 		d = number % 1000 / 100;
 		e = number % 100 / 10;
 		f = number % 10;
-		
-		if (a==f && b==e && c==d){ 
-			
+
+		if (a == f && b == e && c == d) {
+
 			System.out.println("This is a palindrome");
-			
-		}else {
-			
+
+		} else {
+
 			System.out.println("This is not a palindrome");
-			
+
 		}
-		
-		
 
 	}
 

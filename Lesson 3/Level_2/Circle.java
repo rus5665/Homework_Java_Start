@@ -22,22 +22,21 @@ public class Circle {
 		y = sc.nextDouble();
 
 		/*
-		 * вычисляем длину вектора, если он меньше 4, 
-		 * то он попадает в круг
+		 * вычисляем длину вектора, если он меньше 4, то он попадает в круг
 		 */
 
 		v = Math.sqrt(x * x + y * y);
 
 		if (v < r) {
-			
+
 			System.out.println("V = " + v);
 			System.out.println("In");
 
-		}else {
-			
+		} else {
+
 			System.out.println("V = " + v);
 			System.out.println("Out");
-			
+
 		}
 
 	}
