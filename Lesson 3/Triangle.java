@@ -12,7 +12,7 @@ public class Triangle {
 		double a;
 		double b;
 		double c;
-		
+
 		// просим ввести стороны треугольника
 		System.out.println("Enter side A");
 		a = sc.nextDouble();
@@ -23,8 +23,12 @@ public class Triangle {
 		System.out.println("Enter side C");
 		c = sc.nextDouble();
 
-		// проверяем существует ли такой треугольник
-		if (a + b < c || a + c < b || b + c < a) {
+		
+		if (a <= 0 || b <= 0 || c <= 0) { // проверяем чтобы стороны были больше нуля
+
+			System.out.println("There is no such triangle. The side of the triangle can not be less than or equal to 0");
+
+		} else if (a + b < c || a + c < b || b + c < a) { // проверяем существует ли такой треугольник
 
 			System.out.println("There is no such triangle");
 
