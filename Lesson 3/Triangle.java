@@ -26,7 +26,7 @@ public class Triangle {
 		
 		if (a <= 0 || b <= 0 || c <= 0) { // проверяем чтобы стороны были больше нуля
 
-			System.out.println("There is no such triangle. The side of the triangle can not be less than or equal to 0");
+			System.out.println("There is no such triangle. The side of the triangle can not be less or equal to 0");
 
 		} else if (a + b < c || a + c < b || b + c < a) { // проверяем существует ли такой треугольник
 
