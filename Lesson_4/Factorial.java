@@ -13,7 +13,7 @@ public class Factorial {
 		
 		int a = sc.nextInt();
 		
-		int factorial = 1;
+		double factorial = 1;
 
 		if (a < 4 || a > 15) {
 
@@ -21,7 +21,7 @@ public class Factorial {
 
 		} else {
 
-			for (int i = 1; i < (a + 1); i++) {
+			for (int i = 1; i < (a + 1) ; i++) {
 
 				factorial = factorial * i;
 
